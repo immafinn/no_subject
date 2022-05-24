@@ -30,224 +30,224 @@
 </head>
 
 <body>
-    <div id="targetDiv">타겟</div>
+<div id="targetDiv">타겟</div>
 	<script type="text/javaScript" language="javascript" defer="defer">
 	    	
-		var unitData = [ {
-			"idx" : 0,
-			"std" : "위치",
-			"note" : [ "사용자의 위치를 선택한다." ],
-			"type" : "sel_dynamic",
-			"ref_sel_dynamic" : [ {
-				"nm" : "서울특별시",
-				"idx" : "10000",
-				"option" : [ {
-					"nm" : "강남구",
-					"idx" : "10001",
-					"option" : [ {
-						"nm" : "개포동",
-						"idx" : "10002",
-						"val" : 70
-					}, {
-						"nm" : "논현동",
-						"idx" : "10003",
-						"val" : 70
-					}, {
-						"nm" : "대치동",
-						"idx" : "10004",
-						"val" : 70
-					}, ]
-				}, {
-					"nm" : "강동구",
-					"idx" : "10007",
-					"option" : [ {
-						"nm" : "강일동",
-						"idx" : "10009",
-						"val" : 50
-					}, {
-						"nm" : "고덕동",
-						"idx" : "10010",
-						"val" : 40
-					}, {
-						"nm" : "구일동",
-						"idx" : "10011",
-						"val" : 30
-					}, {
-						"nm" : "둔촌동",
-						"idx" : "10012",
-						"val" : 20
-					} ]
-				}, {
-					"nm" : "강북구",
-					"idx" : "10013",
-					"option" : [ {
-						"nm" : "미아동",
-						"idx" : "10015",
-						"val" : 0
-					} ]
-				} ]
+var unitData = [ {
+	"idx" : 0,
+	"std" : "위치",
+	"note" : [ "사용자의 위치를 선택한다." ],
+	"type" : "sel_dynamic",
+	"ref_sel_dynamic" : [ {
+		"nm" : "서울특별시",
+		"idx" : "10000",
+		"option" : [ {
+			"nm" : "강남구",
+			"idx" : "10001",
+			"option" : [ {
+				"nm" : "개포동",
+				"idx" : "10002",
+				"val" : 70
 			}, {
-				"nm" : "대구광역시",
-				"idx" : "20000",
-				"option" : [ {
-					"nm" : "남구",
-					"idx" : "20001",
-					"option" : [ {
-						"nm" : "대명동",
-						"idx" : "20003",
-						"val" : 70
-					}, {
-						"nm" : "복덕동",
-						"idx" : "20004",
-						"val" : 60
-					}, {
-						"nm" : "이천동",
-						"idx" : "20005",
-						"val" : 50
-					} ]
-				}, {
-					"nm" : "달서구",
-					"idx" : "20006",
-					"option" : [ {
-						"nm" : "갈산동",
-						"idx" : "20008",
-						"val" : 60
-					}, {
-						"nm" : "감삼동",
-						"idx" : "20009",
-						"val" : 50
-					}, {
-						"nm" : "대곡동",
-						"idx" : "20010",
-						"val" : 40
-					}, {
-						"nm" : "대천동",
-						"idx" : "20011",
-						"val" : 30
-					}, {
-						"nm" : "도원동",
-						"idx" : "20011",
-						"val" : 70
-					}, {
-						"nm" : "두류동",
-						"idx" : "20011",
-						"val" : 80
-					} ]
-				}, {
-					"nm" : "달성군",
-					"idx" : "20012",
-					"option" : [ {
-						"nm" : "가창면",
-						"idx" : "20014",
-						"val" : 30
-					}, {
-						"nm" : "구지면",
-						"idx" : "20015",
-						"val" : 20
-					}, {
-						"nm" : "논공읍",
-						"idx" : "20016",
-						"val" : 10
-					} ]
-				}, {
-					"nm" : "동구",
-					"idx" : "20017",
-					"option" : [ {
-						"nm" : "각산동",
-						"idx" : "20019",
-						"val" : 0
-					} ]
-				} ]
+				"nm" : "논현동",
+				"idx" : "10003",
+				"val" : 70
 			}, {
-				"nm" : "인천광역시",
-				"idx" : "30000",
-				"option" : [ {
-					"nm" : "강화군",
-					"idx" : "30001",
-					"option" : [ {
-						"nm" : "강화읍",
-						"idx" : "30003",
-						"val" : 0
-					} ]
-				} ]
-			} ],
-			"std_group_sel_dynamic" : [ "시", "군", "구" ]
-		} ];
+				"nm" : "대치동",
+				"idx" : "10004",
+				"val" : 70
+			}, ]
+		}, {
+			"nm" : "강동구",
+			"idx" : "10007",
+			"option" : [ {
+				"nm" : "강일동",
+				"idx" : "10009",
+				"val" : 50
+			}, {
+				"nm" : "고덕동",
+				"idx" : "10010",
+				"val" : 40
+			}, {
+				"nm" : "구일동",
+				"idx" : "10011",
+				"val" : 30
+			}, {
+				"nm" : "둔촌동",
+				"idx" : "10012",
+				"val" : 20
+			} ]
+		}, {
+			"nm" : "강북구",
+			"idx" : "10013",
+			"option" : [ {
+				"nm" : "미아동",
+				"idx" : "10015",
+				"val" : 0
+			} ]
+		} ]
+	}, {
+		"nm" : "대구광역시",
+		"idx" : "20000",
+		"option" : [ {
+			"nm" : "남구",
+			"idx" : "20001",
+			"option" : [ {
+				"nm" : "대명동",
+				"idx" : "20003",
+				"val" : 70
+			}, {
+				"nm" : "복덕동",
+				"idx" : "20004",
+				"val" : 60
+			}, {
+				"nm" : "이천동",
+				"idx" : "20005",
+				"val" : 50
+			} ]
+		}, {
+			"nm" : "달서구",
+			"idx" : "20006",
+			"option" : [ {
+				"nm" : "갈산동",
+				"idx" : "20008",
+				"val" : 60
+			}, {
+				"nm" : "감삼동",
+				"idx" : "20009",
+				"val" : 50
+			}, {
+				"nm" : "대곡동",
+				"idx" : "20010",
+				"val" : 40
+			}, {
+				"nm" : "대천동",
+				"idx" : "20011",
+				"val" : 30
+			}, {
+				"nm" : "도원동",
+				"idx" : "20011",
+				"val" : 70
+			}, {
+				"nm" : "두류동",
+				"idx" : "20011",
+				"val" : 80
+			} ]
+		}, {
+			"nm" : "달성군",
+			"idx" : "20012",
+			"option" : [ {
+				"nm" : "가창면",
+				"idx" : "20014",
+				"val" : 30
+			}, {
+				"nm" : "구지면",
+				"idx" : "20015",
+				"val" : 20
+			}, {
+				"nm" : "논공읍",
+				"idx" : "20016",
+				"val" : 10
+			} ]
+		}, {
+			"nm" : "동구",
+			"idx" : "20017",
+			"option" : [ {
+				"nm" : "각산동",
+				"idx" : "20019",
+				"val" : 0
+			} ]
+		} ]
+	}, {
+		"nm" : "인천광역시",
+		"idx" : "30000",
+		"option" : [ {
+			"nm" : "강화군",
+			"idx" : "30001",
+			"option" : [ {
+				"nm" : "강화읍",
+				"idx" : "30003",
+				"val" : 0
+			} ]
+		} ]
+	} ],
+	"std_group_sel_dynamic" : [ "시", "군", "구" ]
+} ];
+
+unitData = unitData[0];
 		
-		unitData = unitData[0];
-		
-		if(unitData.type == "sel_dynamic"){//동적 select박스 최초 생성하는 함수
-			var _html = '' //화면에 output할 html 문자열을 저장할 곳
-			var _str = '}'; //자르기를 마칠 문자열
-			var _pointStr = ""; //자르기를 시작할 문자열 중에서 구분 문자열
-			var _dataStrAfterObj; //DB의 트리데이터 문자열을 가공 후 Object로 저장할 곳
-		
-			var _refSelDynamic = unitData.ref_sel_dynamic; //DB 데이터 ref_sel_dynamic키에 담긴 값 저장
-			var _refSelDynamicStr = JSON
-					.stringify(unitData.ref_sel_dynamic) //DB 데이터에서 ref_sel_dynamic키에 담긴 값을 문자열로 저장함(프론트에서 가공할거임)
-			var _stdGroupSelDynamic = unitData.std_group_sel_dynamic; //DB 데이터 std_group_sel_dynamic키에 담긴 값 저장
-		
-			for (var j = 0; j < _stdGroupSelDynamic.length - 1; j++) { //'}'(object 닫기 표시)로 초기화 되어있는 자를 문자열을 std_group_sel_dynamic의 갯수만큼 ']}'(배열 닫기 표시 + object 닫기 표시)를 늘려줌.
-				_str += ']}';
+if(unitData.type == "sel_dynamic"){//동적 select박스 최초 생성하는 함수
+	var _html = '' //화면에 output할 html 문자열을 저장할 곳
+	var _str = '}'; //자르기를 마칠 문자열
+	var _pointStr = ""; //자르기를 시작할 문자열 중에서 구분 문자열
+	var _dataStrAfterObj; //DB의 트리데이터 문자열을 가공 후 Object로 저장할 곳
+
+	var _refSelDynamic = unitData.ref_sel_dynamic; //DB 데이터 ref_sel_dynamic키에 담긴 값 저장
+	var _refSelDynamicStr = JSON
+			.stringify(unitData.ref_sel_dynamic) //DB 데이터에서 ref_sel_dynamic키에 담긴 값을 문자열로 저장함(프론트에서 가공할거임)
+	var _stdGroupSelDynamic = unitData.std_group_sel_dynamic; //DB 데이터 std_group_sel_dynamic키에 담긴 값 저장
+
+	for (var j = 0; j < _stdGroupSelDynamic.length - 1; j++) { //'}'(object 닫기 표시)로 초기화 되어있는 자를 문자열을 std_group_sel_dynamic의 갯수만큼 ']}'(배열 닫기 표시 + object 닫기 표시)를 늘려줌.
+		_str += ']}';
+	}
+
+	for (var j = 0; j < _stdGroupSelDynamic.length; j++) {
+		_html += '	<select nm="'
+				+ unitData.std_group_sel_dynamic[j]
+				+ '" unit="" name="dymSlct_'
+				+ j
+				+ '" id="dymSlct_'
+				+ j
+				+ '" onchange="changeDymSlctRvsn($(this),'
+				+ j
+				+ ')" style="height: 35px; width: 200px; border-radius: 5px; border: 1px solid #B4B4B4; background-color: #fff; text-indent: 8px; margin-left: 2px; margin-bottom: 6px;">';//select 만들기 시작
+		if (j < 1) {//최상단 select를 따로 만듬.
+			_pointStr = _refSelDynamic[0].nm + '","idx":"'
+					+ _refSelDynamic[0].idx + '"';
+			for (var k = 0; k < _refSelDynamic.length; k++) {
+				_html += "<option idx='"+_refSelDynamic[k].idx+"'>"
+						+ _refSelDynamic[k].nm + "</option>";
 			}
-		
-			for (var j = 0; j < _stdGroupSelDynamic.length; j++) {
-				_html += '	<select nm="'
-						+ unitData.std_group_sel_dynamic[j]
-						+ '" unit="" name="dymSlct_'
-						+ j
-						+ '" id="dymSlct_'
-						+ j
-						+ '" onchange="changeDymSlctRvsn($(this),'
-						+ j
-						+ ')" style="height: 35px; width: 200px; border-radius: 5px; border: 1px solid #B4B4B4; background-color: #fff; text-indent: 8px; margin-left: 2px; margin-bottom: 6px;">';//select 만들기 시작
-				if (j < 1) {//최상단 select를 따로 만듬.
-					_pointStr = _refSelDynamic[0].nm + '","idx":"'
-							+ _refSelDynamic[0].idx + '"';
-					for (var k = 0; k < _refSelDynamic.length; k++) {
-						_html += "<option idx='"+_refSelDynamic[k].idx+"'>"
-								+ _refSelDynamic[k].nm + "</option>";
-					}
-				} else {//최상단 select를 제외한 나머지 자식 select를 만듬.
-					var before = _refSelDynamicStr.indexOf(_pointStr) - 7;//구분 문자열로 사용할 nm을 String문자열에서 찾을 땐 {"nm":" = 7
-					_refSelDynamicStr = _refSelDynamicStr
-							.substring(before);//자르기
-		
-					var after = _refSelDynamicStr.indexOf(_str)
-							+ _str.length;
-					_refSelDynamicStr = _refSelDynamicStr.substring(0,
-							after);//자르기
-		
-					_dataStrAfterObj = JSON.parse(_refSelDynamicStr);
-		
-					for (var k = 0; k < _dataStrAfterObj.option.length; k++) {
-						if (_dataStrAfterObj.option[k].val != undefined)
-							_html += "<option value='"+_dataStrAfterObj.option[k].val+"' idx='"+_dataStrAfterObj.option[k].idx+"'>"
-									+ _dataStrAfterObj.option[k].nm
-									+ "</option>";
-						else
-							_html += "<option idx='"+_dataStrAfterObj.option[k].idx+"'>"
-									+ _dataStrAfterObj.option[k].nm
-									+ "</option>";
-					}
-					_str = _str.substring(0, _str.length - 2);//이 반복문을 빠져나갈 때 마다 트리 level이 하나씩 내려가므로, 맨 처음 시작할 때 "}]}]}"였던 _str을 "}"까지 빼줘야 함. 여기서 2개씩 빼주는 거임.
-					_pointStr = _dataStrAfterObj.option[0].nm
-							+ '","idx":"'
-							+ _dataStrAfterObj.option[0].idx + '"'; //구분 문자열을 다음 select박스의 첫 번째 데이터 값으로 변경함.
-				}
-				_html += '	</select>';//select 만들기 완료
+		} else {//최상단 select를 제외한 나머지 자식 select를 만듬.
+			var before = _refSelDynamicStr.indexOf(_pointStr) - 7;//구분 문자열로 사용할 nm을 String문자열에서 찾을 땐 {"nm":" = 7
+			_refSelDynamicStr = _refSelDynamicStr
+					.substring(before);//자르기
+
+			var after = _refSelDynamicStr.indexOf(_str)
+					+ _str.length;
+			_refSelDynamicStr = _refSelDynamicStr.substring(0,
+					after);//자르기
+
+			_dataStrAfterObj = JSON.parse(_refSelDynamicStr);
+
+			for (var k = 0; k < _dataStrAfterObj.option.length; k++) {
+				if (_dataStrAfterObj.option[k].val != undefined)
+					_html += "<option value='"+_dataStrAfterObj.option[k].val+"' idx='"+_dataStrAfterObj.option[k].idx+"'>"
+							+ _dataStrAfterObj.option[k].nm
+							+ "</option>";
+				else
+					_html += "<option idx='"+_dataStrAfterObj.option[k].idx+"'>"
+							+ _dataStrAfterObj.option[k].nm
+							+ "</option>";
 			}
-		
-			if (unitData.note != null || unitData.note != undefined) { //주석으로 저장되어있는 DB 데이터 표시하기
-				for (var j = 0; j < unitData.note.length; j++) {
-					_html += '<br>';
-					_html += '<span class="util_text" style="font-weight:normal;">&nbsp;※'
-							+ unitData.note[j] + '</span>';
-				}
-			}
-		
-			$('#targetDiv').html(_html);
+			_str = _str.substring(0, _str.length - 2);//이 반복문을 빠져나갈 때 마다 트리 level이 하나씩 내려가므로, 맨 처음 시작할 때 "}]}]}"였던 _str을 "}"까지 빼줘야 함. 여기서 2개씩 빼주는 거임.
+			_pointStr = _dataStrAfterObj.option[0].nm
+					+ '","idx":"'
+					+ _dataStrAfterObj.option[0].idx + '"'; //구분 문자열을 다음 select박스의 첫 번째 데이터 값으로 변경함.
 		}
+		_html += '	</select>';//select 만들기 완료
+	}
+
+	if (unitData.note != null || unitData.note != undefined) { //주석으로 저장되어있는 DB 데이터 표시하기
+		for (var j = 0; j < unitData.note.length; j++) {
+			_html += '<br>';
+			_html += '<span class="util_text" style="font-weight:normal;">&nbsp;※'
+					+ unitData.note[j] + '</span>';
+		}
+	}
+
+	$('#targetDiv').html(_html);
+}
 		
 function changeDymSlctRvsn(_this, _changeNum){//동적 select change될 때 마다 실행되는 함수
 	//_this는 change 이벤트가 일어난 select box, _changeNum은 change 이벤트가 일어난 select box의 위치(load 함수에서 select박스 갯수만큼 자동으로 생성된 값임)
