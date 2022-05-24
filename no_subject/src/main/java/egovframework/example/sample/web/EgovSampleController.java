@@ -70,6 +70,19 @@ public class EgovSampleController {
 	protected DefaultBeanValidator beanValidator;
 
 	/**
+	 * 2022-05-24 동적 select 시현할 화면을 만들기 위해 만듬. 
+	 * @param searchVO - 조회할 정보가 담긴 SampleDefaultVO
+	 * @param model
+	 * @return "egovSampleDynamicSelect"
+	 * @exception Exception
+	 */
+	@RequestMapping(value = "/egovSampleDynamicSelect.do")
+	public String selectSampleDynamicSelect(@ModelAttribute("searchVO") SampleDefaultVO searchVO, ModelMap model) throws Exception {
+		
+		return "sample/egovSampleDynamicSelect";
+	}
+	
+	/**
 	 * 글 목록을 조회한다. (pageing)
 	 * @param searchVO - 조회할 정보가 담긴 SampleDefaultVO
 	 * @param model
